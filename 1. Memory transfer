@@ -9,6 +9,7 @@ P1=0x00;
 z=x+y;
 P1=z;
 }
+
 Subtract:
 #include<reg51.h>
 void main(void)
@@ -20,6 +21,8 @@ P1=0x00;
 z=x-y;
 P1=z;
 }
+
+
 Multiply:
 #include<reg51.h>
 void main(void)
@@ -31,6 +34,8 @@ P1=0x00;
 z=x*y;
 P1=z;
 }
+
+
 Divide:
 #include<reg51.h>
 void main(void)
@@ -42,6 +47,8 @@ P1=0x00;
 z=x/y;
 P1=z;
 }
+
+
 C program to for data transfer:
 #include <reg51.h>
 void main(void)
